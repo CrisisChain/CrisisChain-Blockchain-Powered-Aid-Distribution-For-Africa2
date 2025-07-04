@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Wallet, ArrowRight, Shield, Globe, Users, Zap } from 'lucide-react';
 
