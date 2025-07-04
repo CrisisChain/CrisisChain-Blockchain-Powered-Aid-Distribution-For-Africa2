@@ -4,7 +4,7 @@ pragma solidity ^0.8.19;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
-import "@openzeppelin/contracts/security/Pausable.sol"
+import "@openzeppelin/contracts/security/Pausable.sol";
 
 contract AidToken is ERC20, Ownable, Pausable {
     mapping(address => bool) public verifiers;
