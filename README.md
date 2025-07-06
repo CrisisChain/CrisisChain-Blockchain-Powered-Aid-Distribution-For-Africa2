@@ -219,4 +219,3 @@ If you have ideas, improvements, or bug fixes:
 - Create a new branch
 - Submit a pull request
 
-Please refer to the `CONTRIBUTING.md` if available.
