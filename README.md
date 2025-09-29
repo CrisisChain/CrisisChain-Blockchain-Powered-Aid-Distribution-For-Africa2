@@ -1,100 +1,54 @@
 
-# 🌍 CrisisChain – Blockchain Powered Aid Distribution For Africa
+# 🌍 CrisisChain – Hedera Powered Aid Distribution For Africa
 
-**CrisisChain** is a decentralized web application platform designed to bring **transparency, fairness, and security** to humanitarian aid distribution across Africa. Built on the privacy focused **Midnight blockchain**, it enables NGOs, donors, governments, and communities to collaborate in a **trustless, verifiable ecosystem** where aid flows directly to verified recipients with no corruption or mismanagement.
+**CrisisChain** is a decentralized web app platform designed to bring **transparency, fairness, and efficiency** to humanitarian aid distribution across Africa. Built on the **Hedera Hashgraph network**, it enables NGOs, donors, governments, and communities to collaborate in a **trustless, verifiable ecosystem** where aid flows directly to verified recipients with **low cost, high speed, and eco-friendly transactions**.
 
 ---
 
 ## ✨ Purpose
 
-Too often, aid gets lost before reaching the people who need it most. CrisisChain solves this by using blockchain to:
-
-- Securely verify identities
-- Track every step of aid distribution
-- Issue tamper-proof digital aid tokens
-- Enable real-time dashboards for transparency
+Aid often fails to reach those who need it most. CrisisChain on **Hedera** solves this by:
+- Securely verifying identities
+- Tracking every step of aid distribution
+- Issuing tamper-proof digital aid tokens (via Hedera Token Service)
+- Providing real-time dashboards for transparency (via Hedera Consensus Service)
 
 ---
 
 ## 🚀 Features
 
-- 🔗 **Blockchain-based aid tracking** using Midnight smart contracts
-- 🎟️ **Token-based aid claiming** via verified digital identity
-- 🧾 **Zero-knowledge verification** to protect user privacy
-- 📊 **Admin dashboard** with real-time analytics
+- 🔗 **Hedera Token Service (HTS)** for aid token creation & distribution
+- 🎟️ **Token-based claiming** via verified identity
+- 📊 **Hedera Consensus Service (HCS)** for immutable transaction logs
 - 📍 **Map-based tracking** of aid distribution centers
-- 👛 **Lace Wallet integration** for secure transactions
+- 👛 **Wallet integrations** (HashPack / Blade Wallet)
 - 🛡️ **Tamper-proof, fraud-resistant system**
-
-## 🏗️ Project Structure
-
-This project is organized into three main directories for optimal development and deployment:
-
-### 📁 `on-chain/` - Smart Contract Logic
-
-Contains all Midnight smart contract code and blockchain infrastructure:
-
-```
-on-chain/
-├── contracts/          # Midnight smart contracts
-│   └── AidTokenContract.js
-├── scripts/           # Deployment and interaction scripts
-│   └── deploy.js
-├── test/             # Smart contract unit tests
-│   └── AidToken.test.js
-├── hardhat.config.js # Hardhat configuration
-└── package.json      # Node.js dependencies for contracts
-```
-
-### 📁 `off-chain/` - Frontend Application
-
-React-based frontend application with modern UI/UX:
-
-```
-off-chain/
-├── public/           # Static assets
-├── src/
-│   ├── components/   # Reusable React components
-│   ├── pages/       # Route-based pages
-│   │   └── GetStarted.jsx
-│   ├── hooks/       # Custom React hooks
-│   ├── utils/       # Helper functions
-│   └── supabase/    # Supabase client setup
-├── tailwind.config.js
-└── package.json
-```
-
-### 📁 `backend-supabase/` - Backend Infrastructure
-
-Supabase backend configuration and database management:
-
-```
-backend-supabase/
-├── functions/        # Supabase Edge Functions (optional)
-├── migrations/       # SQL migration scripts
-├── types/           # Database-generated TypeScript types
-│   └── database.types.ts
-├── client.ts        # Supabase client configuration
-└── .env.local.example # Environment variables template
-```
+- 🌱 **Eco-friendly ledger** with low energy usage
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Layer           | Technology                         |
-| --------------- | ---------------------------------- |
-| Frontend        | React.js / typescript              |
-| Backend         | Supabase (Database + Auth)         |
-| Blockchain      | Midnight (Compact Smart Contracts) |
-| Database        | PostgreSQL (via Supabase)          |
-| Authentication  | Supabase Auth with JWT             |
-| Wallet          | Lace Wallet                        |
-| Map Integration | Leaflet.js / Mapbox                |
+| Layer            | Technology                          |
+|------------------|------------------------------------|
+| Frontend         | React.js / TypeScript / Tailwind CSS |
+| Backend          | Supabase (Database + Auth)         |
+| Blockchain       | Hedera Hashgraph (HTS + HCS)       |
+| Database         | PostgreSQL (via Supabase)          |
+| Authentication   | Supabase Auth with JWT             |
+| Wallet           | HashPack / Blade Wallet            |
+| Map Integration  | Leaflet.js / Mapbox                |
 
 ---
 
 ## 📦 Installation & Setup
+
+### 1. Clone Repository
+```bash
+git clone https://github.com/Dibora12/CrisisChain-Hedera-Aid-Distribution
+cd CrisisChain-Hedera-Aid-Distribution
+npm install
+
 
 ### 2. Install Dependencies
 
